@@ -461,5 +461,8 @@ ul > side-nav li {
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
   }
-
+.eyes {
+    padding-top: 25%;
+    align-items: center;
+}
   
