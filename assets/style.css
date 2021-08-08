@@ -226,11 +226,11 @@ ul > side-nav li {
 
 .social {
     margin: 0 60px;
-    width: auto;
+    width: 60px;
     text-align: left;
     left: 20px;
     padding: 50px;
-    position: relative;
+    position: absolute;
     top: 220px;
 }
 
@@ -241,6 +241,7 @@ ul > side-nav li {
     text-align: center;
     padding: 0px;
     color: #0077b5;
+    border: 0;
     cursor: pointer;
     font-size: 40px;
     line-height: 50px;
@@ -250,13 +251,15 @@ ul > side-nav li {
   }
 
 .icon-github {
-    margin: 0 30px;
+    left: 120px;
+    top: 50px;
     width: 60px;
     height: 50px;
     position: absolute;
     background-image: url("https://img.icons8.com/small/452/github.png");
+    border: 0;
     background-position: center;
-    background-size: auto;
+    background-size: 50px;
     cursor: pointer;
     font-size: 40px;
     line-height: 50px;
