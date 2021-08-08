@@ -44,6 +44,15 @@ nav i {
     top: 5px;
 
 }
+@media screen and (max-width: 700px) {
+    .nav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
 
 main {
     padding-left: 200px;
@@ -318,7 +327,7 @@ ul > side-nav li {
 }
 .icon-projects {
     left: 120px;
-    top: 50px;
+    top: 120px;
     width: 110px;
     height: 80px;
     position: absolute;
@@ -334,12 +343,14 @@ ul > side-nav li {
 }
 .readme {
     position: relative;
-    padding: 10px 30px;
-    background: blanchedalmond;
-    color: cadetblue;
-    border: 2px solid blanchedalmond;
+    padding: 10px 90px;
+    background: white;
+    color: white;
+    top: 150px;
+    left: 15px;
+    border: 2px solid cadetblue;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 18px;
     letter-spacing: 1px;
     display: inline-block;
     border-radius: 3px;
