@@ -73,7 +73,6 @@ ul > side-nav li {
     background-position: center;
     background-size: cover;
     padding-top: 0;
-    padding-left: 0;
     position: relative;
 }
 
@@ -90,24 +89,26 @@ ul > side-nav li {
     text-align: left;
     font-weight: 200;
     left: 5%;
-    position: absolute;
-    height: 20px;
-    overflow: hidden;
+    position: relative;
+    align-items: center;
+    height: 300px;
     top: 5%;
 }
 
 .greeting {
     position: relative;
-    padding-top: 0;
+    padding-top: 50px;
     padding-left: 130px;
     font-size: 3em;
 }
 
 .title {
     font-size: 2.5em;
+    font-variant: small-caps;
+    font-weight: bold;
     background-color: teal;
     color: white;
-    padding-left: 10px;
+    padding-left: 40px;
     padding-top: 10;
     padding-bottom: 10px;
 }
@@ -117,6 +118,8 @@ ul > side-nav li {
     margin-left: 20%;
     margin-right: 20%;
     font-weight: 600;
+    position: relative;
+
 }
 .myname {
     background: #478ab0;
@@ -312,7 +315,22 @@ ul > side-nav li {
 .linkdin {
     color: #0097b5;
 }
-
+.icon-projects {
+    left: 120px;
+    top: 50px;
+    width: 110px;
+    height: 80px;
+    position: absolute;
+    border: 0;
+    background-position: center;
+    background-size: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 45px;
+    display: inline-block;
+    margin-top: 10px;
+}
 .readme {
     position: relative;
     padding: 10px 30px;
@@ -325,105 +343,123 @@ ul > side-nav li {
     display: inline-block;
     border-radius: 3px;
 }
-
-
-
-
 .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0; 
-
-  word-wrap: break-word;
-
-  background-clip: border-box;
-
-  @include border-radius($card-border-radius);
-  @include box-shadow($card-box-shadow);
-
-  > hr {
+    margin-bottom: 60px;
+  }
+  
+  .card .role {
+    font-size: 1.25rem;
+    position: relative;
+    right: 38px;
+    top: 35px;
+  }
+  
+  .card li a {
     margin-right: 0;
-    margin-left: 0;
+    color: #333;
+    border-bottom: 2px solid #ffab40;
+  }
+  
+  .card li a:hover {
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .card .card-content {
+    padding-bottom: 30px;
+    font-size: 1em;
+  }
+  
+  .card .card-content p {
+    padding: 15px 20px 0;
+  }
+  
+  .card h5 {
+    font-size: 1.5rem;
+    margin-bottom: -0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .card h6 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    text-transform: uppercase;
+  }
+  
+.card-action {
+    background-color: rgba(0, 0, 0, 0.02);
+    border: none;
+  }
+  
+.card .col.s12.m2 a {
+    display: block;
+  }
+  
+ .card .col.s12.m2 a img {
+    max-height: 60px;
+  }
+  
+  .card-action span {
+    font-size: 85%;
+    color: #666;
+  }
+  
+  .card ul {
+    margin-bottom: 0;
+  }
+  
+  .card ul li {
+    line-height: 200%;
+    list-style-type: disc;
+    margin-left: 24px;
+  }
+  
+  .card ul li li {
+    color: #666;
+    font-size: 13px;
+  }
+  
+  .card .card-title {
+    font-size: 24px;
+  }
+  
+  .card .card-content .card-title {
+    line-height: 2.5rem;
+  }
+  
+  .card i.right {
+    margin-left: 10px;
   }
 
-  > .list-group {
-    border-top: inherit;
-    border-bottom: inherit;
-
-    &:first-child {
-      border-top-width: 0;
-      @include border-top-radius($card-inner-border-radius);
-    }
-
-    &:last-child  {
-      border-bottom-width: 0;
-      @include border-bottom-radius($card-inner-border-radius);
-    }
+  #skills .card.large {
+    height: 360px;
+  }
+  
+  #skills h4 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  
+  #skills .col img.responsive-img {
+    margin: 0 auto;
+    max-height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  
+.card.large .card-content p {
+    color: inherit;
+    margin: 0;
+    padding: 30px 0;
+  }
+  
+.card-content .row {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
   }
 
-  // Due to specificity of the above selector (`.card > .list-group`), we must
-  // use a child selector here to prevent double borders.
-  > .card-header + .list-group,
-  > .list-group + .card-footer {
-    border-top: 0;
-  }
-}
-
-.card-body {
-  // Enable `flex-grow: 1` for decks and groups so that card blocks take up
-  // as much space as possible, ensuring footers are aligned to the bottom.
-  flex: 1 1 auto;
-  padding: $card-spacer-y $card-spacer-x;
-  color: $card-color;
-}
-
-.card-title {
-  margin-bottom: $card-title-spacer-y;
-}
-
-.card-subtitle {
-  margin-top: -$card-title-spacer-y * .5;
-  margin-bottom: 0;
-}
-
-.card-text:last-child {
-  margin-bottom: 0;
-}
-
-.card-link {
-  &:hover {
-    text-decoration: if($link-hover-decoration == underline, none, null);
-  }
-
-  + .card-link {
-    margin-left: $card-spacer-x;
-  }
-}
-
-//
-// Optional textual caps
-//
-
-.card-header {
-  padding: $card-cap-padding-y $card-cap-padding-x;
-  margin-bottom: 0; // Removes the default margin-bottom of <hN>
-  color: $card-cap-color;
-  background-color: $card-cap-bg;
-  border-bottom: $card-border-width solid $card-border-color;
-
-  &:first-child {
-    @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
-  }
-}
-
-.card-footer {
-  padding: $card-cap-padding-y $card-cap-padding-x;
-  color: $card-cap-color;
-  background-color: $card-cap-bg;
-  border-top: $card-border-width solid $card-border-color;
-
-  &:last-child {
-    @include border-radius(0 0 $card-inner-border-radius $card-inner-border-radius);
-  }
-}
+  
