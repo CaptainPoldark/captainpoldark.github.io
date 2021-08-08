@@ -279,6 +279,7 @@ ul > side-nav li {
     border: 0;
     cursor: pointer;
     font-size: 40px;
+    font-weight: 900;
     line-height: 50px;
     border-radius: 45px;
     display: inline-block;
@@ -463,6 +464,6 @@ ul > side-nav li {
   }
 .eyes {
     padding-top: 25%;
-    align-items: center;
+    
 }
   
