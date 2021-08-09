@@ -5,6 +5,7 @@ var pos = 0;
     ];
     var direction = 0;
     var focus = 0;
+    var sectionWidth = window.innerWidth;
 
     function Run() {
         let img = document.getElementById("PacMan");
@@ -27,7 +28,7 @@ var pos = 0;
         //
         // reverse direction on hitting page bounds
         // 
-        if(pos >= (900 - imgWidth)){
+        if(pos >= (sectionWidth - imgWidth)){
             direction = 1;
         }
         if(pos <= 0){
