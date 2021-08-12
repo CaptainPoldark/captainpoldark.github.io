@@ -384,6 +384,7 @@ ul > side-nav li {
   
   .card .card-content p {
     padding: 15px 20px 0;
+    font-size: 1em;
   }
   
   .card h5 {
@@ -473,6 +474,17 @@ ul > side-nav li {
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
   }
+
+  #education .card{
+    padding-bottom: 20px;
+    position: absolute;
+    max-height: 300px;
+  }
+
+  #education .card .card-content{
+    font-size: 1em !important;
+  }
+
 .eyes {
     padding-top: 25%;
     
