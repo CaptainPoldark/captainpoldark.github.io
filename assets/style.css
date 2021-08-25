@@ -295,6 +295,21 @@ body{
     margin-bottom: 40px;
 }
 
+.video-wrapper {
+
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+.video-wrapper iframe {
+    left:20%;
+    top:0;
+    height:80%;
+    width:80%;
+    position:absolute;
+}
+
 /* skills section*/
 .skills-container{
     position: relative;
@@ -409,7 +424,7 @@ body{
     text-transform: capitalize;
     border: none;
     z-index: -1;
-}
+
 }
 /*contact section*/
 .contact{
