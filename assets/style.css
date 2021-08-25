@@ -429,17 +429,21 @@ body{
     border-radius: 10px;
     border: 1px solid #464646;
     position: relative;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 .projects-btn{
     padding: 10px 20px;
+    position: relative;
     text-decoration: none;
-    top: 80px;
+    top:-40px;
+    left: 10px;
     border-radius: 50px;
     background: #7d7d7e;
     color: #fff;
     text-transform: capitalize;
     border: none;
-    z-index: -1;
+    z-index: 9;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 
 }
 /*contact section*/
