@@ -399,10 +399,23 @@ body{
     border: 1px solid #464646;
     position: relative;
 }
+.projects-btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    top: 80px;
+    border-radius: 50px;
+    background: #1e3df1;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    z-index: -1;
+}
+}
 /*contact section*/
 .contact{
     width: 100%;
     height: auto;
+
     padding-top: 80px;
 }
 .contact-container{
