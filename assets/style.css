@@ -93,7 +93,8 @@ body{
 }
 
 .highlight{
-    color: #ff3559;
+    color: #1e3df1;
+    text-transform: uppercase;
 }
 
 .profession{
@@ -243,7 +244,6 @@ body{
     margin-right: 10%;
     display: grid;
     grid-template-columns: 2fr 3fr 2fr;
-    grid-template-rows: 2fr 2fr;
 
 
     grid-gap: 20px;
@@ -274,5 +274,45 @@ body{
     color: #fff;
 }
 
+/* education section */
+
+.education{
+    padding-top: 30px;
+}
+.education-container{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 40px;
+ 
+    list-style-type: none;
 
 
+}
+
+.education-card{
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #464646;
+    position: relative;
+}
+
+.school-name{
+
+    font-size: 2rem;
+    color: #464646;
+    line-height: 200px;
+}
+
+.school-description{
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 10px;
+    list-style: none;
+    
+}
