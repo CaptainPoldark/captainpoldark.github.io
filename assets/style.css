@@ -30,6 +30,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
     z-index: 9;
 }
 
@@ -95,6 +96,7 @@ body{
 .highlight{
     color: #1e3df1;
     text-transform: uppercase;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .profession{
@@ -106,6 +108,7 @@ body{
     position: relative;
     padding: 10px 20px;
     color: #1d1d1d;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
     z-index: 2;
 }
 
@@ -119,6 +122,7 @@ body{
     background: #e3e3e3;
     z-index: -1;
     transform: skewX(10deg);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .profession::after{
@@ -129,6 +133,7 @@ body{
     width: 100px;
     height: 2px;
     background: #e3e3e3;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
 }
 
 .intro{
@@ -144,6 +149,7 @@ body{
     color: #fff;
     text-transform: capitalize;
     border: none;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .social {
@@ -153,6 +159,7 @@ body{
     padding: 50px;
     position: relative;
     left: -60%;
+    
 
 
 }
@@ -172,6 +179,7 @@ body{
     border-radius: 45px;
     display: inline-block;
     margin: 4px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
   }
 
 .icon-github {
@@ -190,6 +198,7 @@ body{
     border-radius: 45px;
     display: inline-block;
     margin: 4px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .icon-linkedin:hover{
@@ -217,11 +226,13 @@ body{
     margin-left:0;
     border: 6px solid #1e3df1;
     border-radius: 50% !important;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .self-portrait {
     width: 100%;
     height: auto;
+    
 }
 
 /* about section*/
@@ -307,7 +318,10 @@ body{
     top:0;
     height:80%;
     width:80%;
+    border: 3px;
+    border-radius: 10px;
     position:absolute;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 /* skills section*/
@@ -332,6 +346,7 @@ body{
     position: relative;
     cursor: pointer;
     transition: .7s;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .skill{
@@ -373,6 +388,7 @@ body{
     border-radius: 10px;
     border: 1px solid #464646;
     position: relative;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .school-name{
