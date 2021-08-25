@@ -140,10 +140,69 @@ body{
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 50px;
-    background: #ff3559;
+    background: #1e3df1;
     color: #fff;
     text-transform: capitalize;
     border: none;
+}
+
+.social {
+    margin: 0 60px;
+    width: 60px;
+    text-align: left;
+    padding: 50px;
+    position: relative;
+    left: -60%;
+
+
+}
+
+.icon-linkedin {
+    margin-left: 0;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    padding: 0px;
+    color: #0077b5;
+    border: 0;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 50px;
+    border-radius: 45px;
+    display: inline-block;
+    margin: 4px;
+  }
+
+.icon-github {
+    left: 125px;
+    top: 50px;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    background-image: url("https://img.icons8.com/small/452/github.png");
+    border: 0;
+    background-position: center;
+    background-size: 50px;
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 50px;
+    border-radius: 45px;
+    display: inline-block;
+    margin: 4px;
+}
+
+.icon-linkedin:hover{
+    background-color: #0077b5;
+    color: white;
+}
+
+.icon-github:hover {
+    -webkit-filter: invert(100%) !important;
+}
+
+.linkdin {
+    color: #0097b5;
 }
 
 .portrait-containter{
@@ -156,7 +215,7 @@ body{
     
     margin: 0;
     margin-left:0;
-    border: 6px solid #ff3559;
+    border: 6px solid #1e3df1;
     border-radius: 50% !important;
 }
 
@@ -315,4 +374,28 @@ body{
     margin-bottom: 10px;
     list-style: none;
     
+}
+.project-tile{
+    padding-top: 40px;
+}
+.project{
+    padding-top: 30px;
+}
+
+.projects-container{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 45%;
+    
+}
+
+.pacman-container{
+    height: 350px;
+    width: 100%;
+    padding: 50px 10vw;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #464646;
+    position: relative;
 }

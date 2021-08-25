@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Jonathankyle Brooks' Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+        <link rel="stylesheet" href="./assets/eyes.css"
+    </head>
+    <body>
+        <!--navigation header-->
+        <nav class="navbar">
+            <h1 class="brand"></h1>
+            <div class="toggle-btn">
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="links-container">
+                <li class="links-item"><a href="index.html" class="link active">home</a></li>
+                <li class="links-item"><a href="#pacman-section" class="link">pacman</a></li>
+                <li class="links-item"><a href="#eyes-section" class="link">eyes</a></li>
+                <li class="links-item"><a href="#bus-section" class="link">bus tracker</a></li>
+            </ul>
+        </nav>
+        <!--home section-->
+        <section class="home">
+            <div class="hero-content">
+                <h1 class="hero-heading"><span class="highlight">welcome, </span>to my projects page</span></h1>
+                <a href="#contact-section" class="btn">reach out to me!</a>
+            </div>
+        </div>
+
+        </section>
+
+        <section class="project-tile" id="pacman-section">
+            <h2 class="heading"><span class="highlight">P</span>ac<span class="highlight">M</span>an</h2>
+            <div class="seperator"></div>
+            <div class="pacman-container">
+
+                <p class="project-description">
+                    This is a simple animation using JavaScript. Pacman stays contained within a predifined boundary.
+                    There are four images. One each for left and right, and a corresponding open/ close mouth image.
+                    These images are grouped into an array, and depending on the location and direction of PacMan, 
+                    the proper image will be shown.
+                </p>
+                <img id="PacMan" src="assets/images/pacman/PacMan1.png" width='200' onclick="Run()" style="position:absolute"> </img>
+
+
+            </div>
+        </section>
+
+        <section class="project-tile" id="eyes-section">
+            <h2 class="heading"><span class="highlight">E</span>yes</h2>
+            <div class="seperator"></div>
+            <div class="pacman-container">
+
+                <p class="project-description">
+                    This is a simple mouse movement tracking demonstration with eyes that follow the user's pointer.
+                </p>
+                <div class="eyes">
+                    <div class="eye">
+                      <div class="ball"></div>
+                    </div>
+                    <div class="eye">
+                      <div class="ball"></div>
+                    </div>
+                  </div>
+              </div>
+
+
+            </div>
+        </section>
+
+        <section class="project-tile" id="bus-section">
+            <h2 class="heading"><span class="highlight">B</span>us</h2>
+            <div class="seperator"></div>
+            <div class="pacman-container">
+
+                <p class="project-description">
+                    Bus tracking app will be added here soon.
+                </p>
+
+
+            </div>
+        </section>
+
+        
+    </body>
+    <script src="assets\js\pacman.js"></script>
+    <script src="assets\js\eyes.js"></script>
+</html>
