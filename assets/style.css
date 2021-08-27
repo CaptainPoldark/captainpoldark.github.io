@@ -489,7 +489,7 @@ body{
         font-size: 1.4rem;
     }
     .about-image, .contact-image{
-        width: 90%;
+        width: 60%;
         margin: auto;
         display: block;
     }
@@ -506,6 +506,14 @@ body{
     .education-container{
 
         grid-template-columns: 1fr;
+
+    }
+    .contact-container{
+    margin: 300px 0 30px;
+    font-size: 2em;
+    width: 100%;
+    padding-left: 20%;
+    overflow:auto;
 
     }
 }
