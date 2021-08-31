@@ -13,3 +13,9 @@ A projects section to highlight some of my current projects, with a link to proj
 There is a Skills section to highlight the languages and databases I have experience with.
 The education section highlights coursework I've taken related to scripting.
 Finally, a Contact me section my my email, phone, Link to my Github account, and LinkedIn profile. 
+
+This portfolio is currently v2.0
+
+More project demos will be added to the projects.html page. As this list grows a search feature will be added
+to easily sort projects based on programming language.
+
