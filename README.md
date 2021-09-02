@@ -1,7 +1,7 @@
 # jonathankyle
 ## Personal Portfolio
 
-This GitHub site showcases my work so far as a MERN Web Developer
+ ### This GitHub site showcases my work so far as a MERN Web Developer
 
 https://captainpoldark.github.io/jonathankyle/index.html
 
@@ -14,7 +14,7 @@ There is a Skills section to highlight the languages and databases I have experi
 The education section highlights coursework I've taken related to scripting.
 Finally, a Contact me section my my email, phone, Link to my Github account, and LinkedIn profile. 
 
-This portfolio is currently v2.0
+### Version 2.3
 
 More project demos will be added to the projects.html page. As this list grows a search feature will be added
 to easily sort projects based on programming language.
