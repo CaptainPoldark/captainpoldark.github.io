@@ -506,6 +506,21 @@ body{
 
 }
 
+#map { 
+    position: relative; 
+    top: 15px; 
+    border: 3px solid #02567c;
+    border-radius: 3px;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    bottom: 0; 
+    width: 90%;
+    height: 600px;
+    z-index: 10;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
 .readme{
 
 }
