@@ -5,7 +5,7 @@
 
 https://captainpoldark.github.io/jonathankyle/index.html
 
-This portfolio demonstrates use of CSS, JavaScript, and HTML
+This portfolio demonstrates use of CSS, JavaScript, Bootstrap, and HTML
 
 Included is an introduction, and video.
 There is an About Me section where I breifly describe myself.
