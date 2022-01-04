@@ -434,6 +434,7 @@ body {
 
 .education-card {
   height: auto;
+  display: inline-flexbox;
   text-align: center;
   border-radius: 10px;
   border: 1px solid #464646;
@@ -444,7 +445,6 @@ body {
 .school-name {
   position: relative;
   font-size: 2rem;
-  display: inline;
   text-align: center;
   color: #464646;
   line-height: 200px;
@@ -452,10 +452,10 @@ body {
 
 .school-description {
   position: relative;
-  display: inline;
   font-size: 1em;
   font-weight: 300;
   line-height: 25px;
+  padding-left: 1.2em;
   margin-bottom: 10px;
   list-style: none;
   text-align: center;
