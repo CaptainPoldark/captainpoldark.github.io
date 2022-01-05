@@ -95,7 +95,7 @@ body {
 }
 
 .highlight {
-  color: #1e3df1;
+  color: #677DF9;
   text-transform: uppercase;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
@@ -280,7 +280,7 @@ body {
 
   margin: 0;
   margin-left: 0;
-  border: 6px solid #1e3df1;
+  border: 6px solid #677DF9;
   border-radius: 50% !important;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
