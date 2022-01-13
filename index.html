@@ -1,197 +1,232 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        <title>Jonathankyle Brooks' Portfolio</title>
-        <link rel="shortcut icon" type="image/jpg" href="assets\images\icon.jpg" />
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-        <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-    </head>
-    <body>
-        <!--navigation header-->
-        <nav class="navbar">
-            <h1 class="brand"></h1>
-            <div class="toggle-btn">
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="links-container">
-                <li class="links-item"><a href="#" class="link active">home</a></li>
-                <li class="links-item"><a href="projects\projects.html" class="link">projects</a></li>
-                <li class="links-item"><a href="#about-section" class="link">about</a></li>
-                <li class="links-item"><a href="#contact-section" class="link">contact</a></li>
-            </ul>
-        </nav>
-        <!--home section-->
-        <section class="home">
-            <div class="hero-content">
-                <h1 class="hero-heading"><span class="highlight">hi, </span>i'm jonathankyle</span></h1>
-                <p class="profession">jr. full-stack web developer</p>
-                <p class="intro">autodidact, with a can-do attitude, who loves meeting both new people and challenges</p>
-                <a href="#contact-section" class="btn">reach out to me!</a>
-            </div>
-        </div>
 
-        <div class="social">
-            <a href="https://www.linkedin.com/in/jonathankyle-brooks/" target="_blank">
-            <button class="icon-linkedin"
-            <i class="fa-linkedin">in</i>
-            </button></a>
+<head>
+    <title>Jonathankyle Brooks' Portfolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets\images\icon.jpg" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
 
-            <a href="https://github.com/CaptainPoldark" target="_blank">
-            <button class="icon-github"
-            
-            </button></a>
-        </div>
-            <div class="portrait-containter">
-            <img src="assets\images\profilePic.jpg" class="self-portrait" alt="my face">
-            </div>
-        </section>
+<body>
+    <!--navigation header-->
 
-        <!--about section-->
-        <section class="about" id="about-section">
-            <h2 class="heading">about <span class="highlight">me</span></h2>
-            <p class="sub-heading">I'm a detail oriented web developer with experience in Javascript, CSS, AWS, Azure, Powershell, and C#.
-                Looking for an opportunity to work in a challenging position to combine my skills in Web Development, that 
-                provides opportunity for professional development, interesting experiences, and new meeting new people.</p>
-            <div class="seperator"></div>
+    <ul class="nav nav-pills justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link active">home</a></li>
+        <li class="nav-item"><a href="projects\projects.html" class="nav-link">projects</a></li>
+        <li class="nav-item"><a href="#about-section" class="nav-link">about</a></li>
+        <li class="nav-item"><a href="#contact-section" class="nav-link">contact</a></li>
+    </ul>
 
-            <div class="about-me-container">
-                <div class="left-col">
-                    <img src="assets\images\aboutPic.jpg" class="about-image">
-                </div>
-                <div class="right-col">
-                    <p class="about-paragraph">I am a Cybersecurity student at Kennesaw State University and MIT Full Stack Web Devolopment student. I'm currently working as an Information Security 
-                        and Compliance Analyst as well as provide Tier 2 level IT Support at Inspired Technologies in Tallhassee, Fl. 
-                        I donate time outside of work at Greenwood in Valdosta, Ga acting as the volunteer IT Administrator, lead 
-                        sound engineer, and live broadcast coordinator. I don't have enough bookshelves for all the books I've read 
-                        and would like to read. </p>
-                        <!-- <a href="#" class="btn"></a> -->
-                        <div class="video-wrapper">
-                            <iframe width="560" height="349" src="https://www.youtube.com/embed/A4k_O5v0sug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                            clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--home section-->
+    <section class="home">
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-4">
+                    <div class="row justify-content-around">
+                        <h1 class="hero-heading"><span class="highlight">hi, </span>i'm jonathankyle</span></h1>
+                    </div>
+
+                    <div class="">
+                        <div class="row gx-10 justify-content-start">
+                            <div class="p-3 col-2">
+                                <a href="https://www.linkedin.com/in/jonathankyle-brooks/" target="_blank">
+                                    <button class="icon-linkedin" <i class="fa-linkedin">in</i>
+                                    </button></a>
                             </div>
-                </div>
-                
-            </div>
-        </section>
 
-        <!--skills section-->
-        <section class="skills" id="skills-section">
-            <h2 class="heading"><span class="highlight">lang</span>uages and <span class="highlight">frame</span>works</h2>
-            <div class="seperator"></div>
-            <div class="skills-container">
-                <div class="skill-card" style="--bg: #f06529">
+                            <div class="p-3 col-6">
+                                <a href="https://github.com/CaptainPoldark" target="_blank">
+                                    <button class="icon-github"></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <p class="profession">jr. full-stack web developer</p>
+                    </div>
+                    <div class="row justify-content-around">
+                        <p class="intro">autodidact, with a can-do attitude</p>
+                    </div>
+                    <div class="row justify-content-around">
+                        <a href="#contact-section" class="btn">reach out to me!</a>
+                    </div>
+                </div>
+                <div class="col-4">
+
+
+                    <img src="assets\images\profilePic.jpg" class="rounded img-fluid " alt="my face">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about section-->
+    <section class="about" id="about-section">
+        <h2 class="heading">about <span class="highlight">me</span></h2>
+        <p class="sub-heading">I'm a detail oriented web developer with experience in Javascript, CSS, AWS, Azure,
+            Powershell, and C#.
+            Looking for an opportunity to work in a challenging position to combine my skills in Web Development, that
+            provides opportunity for professional development, interesting experiences, and new meeting new people.</p>
+        <div class="seperator"></div>
+
+        <div class="container-fluid about-me-container">
+            <div class="row justify-content-around">
+
+                <div class="col-md  ">
+                    <img src="assets\images\aboutPic.jpg" class="rounded img-fluid">
+                </div>
+
+
+                <div class="col-md">
+                    <p class="about-paragraph ">I am a Cybersecurity student at Kennesaw State University and MIT Full
+                        Stack Web Devolopment student. I'm currently working as an Information Security
+                        and Compliance Analyst as well as provide Tier 2 level IT Support at Inspired Technologies in
+                        Tallhassee, Fl.
+                        I donate time outside of work at Greenwood in Valdosta, Ga acting as the volunteer IT
+                        Administrator, lead
+                        sound engineer, and live broadcast coordinator. I don't have enough bookshelves for all the
+                        books I've read
+                        and would like to read. </p>
+                    <!-- <a href="#" class="btn"></a> -->
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="video-wrapper">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/A4k_O5v0sug"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--skills section-->
+    <section class="skills" id="skills-section">
+        <h2 class="heading"><span class="highlight">lang</span>uages and <span class="highlight">frame</span>works</h2>
+        <div class="seperator"></div>
+        <div class="skills-container">
+            <div class="skill-card" style="--bg: #f06529">
                 <p class="skill">JavaScript</p>
 
-                </div>
-                <div class="skill-card" style="--bg: #379ad6">
+            </div>
+            <div class="skill-card" style="--bg: #379ad6">
                 <p class="skill">HTML 5</p>
 
-                </div>
-                <div class="skill-card" style="--bg: #cc6699">
+            </div>
+            <div class="skill-card" style="--bg: #cc6699">
                 <p class="skill">CSS 3</p>
 
-                </div>
-                <div class="skill-card" style="--bg: #326690">
+            </div>
+            <div class="skill-card" style="--bg: #326690">
                 <p class="skill">MongoDB</p>
 
-                </div>
-                <div class="skill-card" style="--bg: #5ed9fb">
+            </div>
+            <div class="skill-card" style="--bg: #5ed9fb">
                 <p class="skill">Shell Scripting</p>
 
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!--education section-->
-        <section class="education" id="education-section">
-            <h2 class="heading"><span class="highlight">Edu</span>cation</h2>
-            <div class="seperator"></div>
-            <div class="education-container">
+    <!--education section-->
+    <section class="education" id="education-section">
+        <h2 class="heading"><span class="highlight">Edu</span>cation</h2>
+        <div class="seperator"></div>
+        <div class="education-container">
 
-                <div class="education-card">
+            <div class="education-card">
                 <p class="school-name">Kennesaw State University</p>
                 <div class="school-description">
-                  <p><b>Degree:</b> B.S. Cybersecurity</p>
-                  <p>In progress</p>
-                  <br>
-                </p>
-            </div>
+                    <p><b>Degree:</b> B.S. Cybersecurity</p>
+                    <p>In progress</p>
+                    <br>
+                    </p>
+                </div>
 
-                  <p>
+                <p>
                     <b>Relevant Coursework:</b>
-                  <ul class="school-description">
+                <ul class="school-description">
                     <li>C#</li>
                     <li>Network and Application Security</li>
                     <li>Security+</li>
-                    </ul>
-                </div>
-            
+                </ul>
+            </div>
 
-                <div class="education-card">
+
+            <div class="education-card">
                 <p class="school-name">MIT/ Emeritus</p>
                 <div class="school-description">
                     <p><b>Program: </b>Full-Stack Web Development Bootcamp</p>
                     <p>In progress</p>
                     <br>
-                  </p>
-                  </div>
-
-                    <p>
-                      <b>Relevant Coursework:</b>
-                    <ul class="school-description">
-                      <li>Javascript</li>
-                      <li>HTML</li>
-                      <li>Node(.js)</li>
-                      <li>CSS</li>
-                      </ul>
-
-
-                </div>
-            </div>
-        </section>
-
-        <!--projects section-->
-        <section class="project" id="project-section">
-            <h2 class="heading"><span class="highlight">Pro</span>jects</h2>
-            <p class="sub-heading">Here is a sample of some of my current projects</p>
-            <div class="seperator"></div>
-            <div class="projects-container">
-            <a href="projects\projects.html" class="btn">Check out my projects!</a>
-            </div>
-        </section>
-
-        <!--contact section-->
- <section class="contact" id="contact-section">
-            <h2 class="heading">contact <span class="highlight">me</span></h2>
-            <p class="sub-heading">Reach out to me using any of the following methods.</p>
-            <div class="seperator"></div>
-
-            <div class="contact-container">
-                
-                <div class="col-sm">
-                    <p class="contact-paragraph">                 
-                    <p class="bi bi-envelope">
-                        <a href="mailto:jonathankylebrooks@gmail.com" class="social-link">JonathankyleBrooks@Gmail.com</a>
                     </p>
-                    <p class="bi bi-telephone">  (229) 329-6312
+                </div>
+
+                <p>
+                    <b>Relevant Coursework:</b>
+                <ul class="school-description">
+                    <li>Javascript</li>
+                    <li>HTML</li>
+                    <li>Node(.js)</li>
+                    <li>CSS</li>
+                </ul>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--projects section-->
+    <section class="project" id="project-section">
+        <h2 class="heading"><span class="highlight">Pro</span>jects</h2>
+        <p class="sub-heading">Here is a sample of some of my current projects</p>
+        <div class="seperator"></div>
+        <div class="projects-container">
+            <a href="projects\projects.html" class="projects-btn">Check out my projects!</a>
+        </div>
+    </section>
+
+    <!--contact section-->
+    <section class="contact" id="contact-section">
+        <h2 class="heading">contact <span class="highlight">me</span></h2>
+        <p class="sub-heading">Reach out to me using any of the following methods.</p>
+        <div class="seperator"></div>
+
+        <div class="container-fluid overflow-hidden">
+            <div class="row gy-5">
+                <div class="p-3 col-6">
+                    <p class="contact-paragraph">
+                    <p class="bi bi-envelope">
+                        <a href="mailto:jonathankylebrooks@gmail.com"
+                            class="social-link">JonathankyleBrooks@Gmail.com</a>
+                    </p>
+                    <p class="bi bi-telephone"> (229) 329-6312
                     </p>
                     <p class="bi bi-github">
                         <a href="https://github.com/CaptainPoldark" class="social-link">Github.com/CaptainPoldark</a>
                     </p>
                     <p class="bi bi-linkedin">
-                        <a href="https://www.linkedin.com/in/jonathankyle-brooks/" class="social-link">LinkedIn.com/Jonathankyle-brooks</a>
+                        <a href="https://www.linkedin.com/in/jonathankyle-brooks/"
+                            class="social-link">LinkedIn.com/Jonathankyle-brooks</a>
                     </p>
                 </div>
-                <div class="col-3">
-                    
-                        <img src="assets\images\contact.jpg" class="contact-image">
+                <div class="p-3 col-3">
+
+                    <img src="assets\images\contact.jpg" class="contact-image">
                 </div>
-                
             </div>
-        </section>
-    </body>
+
+        </div>
+    </section>
+</body>
+
 </html>

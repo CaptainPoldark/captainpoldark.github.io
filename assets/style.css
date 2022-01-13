@@ -1,17 +1,10 @@
 /* main */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  width: 100%;
-  position: relative;
   background: #1d1d1d;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -22,18 +15,11 @@ body {
 /* navigation styles */
 
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
   height: 60px;
   background: #1d1d1d;
-  padding: 0 10vw;
-  display: flex;
-  justify-content: space-between;
+
   align-items: center;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
-  z-index: 9;
 }
 
 .brand {
@@ -73,7 +59,6 @@ body {
 /*home section*/
 
 .home {
-  width: 100%;
   min-height: calc(100vh - 60px);
   height: auto;
   margin-top: 60px;
@@ -81,32 +66,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
-}
-
-.hero-content {
-  width: 50%;
 }
 
 .hero-heading {
   font-size: 5rem;
+
   text-transform: capitalize;
   font-weight: 500;
 }
 
 .highlight {
-  color: #677DF9;
+  color: #677df9;
   text-transform: uppercase;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .profession {
   width: fit-content;
-  display: block;
+
   margin: 10px 0 20px;
-  margin-left: auto;
+  margin-left: 30rem;
+
   text-transform: capitalize;
-  position: relative;
+  position: absolute;
   padding: 10px 20px;
   color: #1d1d1d;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
@@ -138,13 +120,13 @@ body {
 }
 
 .intro {
-  line-height: 30px;
-  margin-bottom: 50px;
-
-  border-right: 0.15em solid #1e3df1;
+  line-height: 1em;
+  margin-top: 5%;
+  text-align: left;
   white-space: nowrap;
   overflow: hidden;
-  width: 40em;
+  border-right: 0.15em solid #1e3df1;
+
   opacity: 0;
   -webkit-animation: type 5s steps(50, end),
     blink 0.5s step-end infinite alternate;
@@ -200,6 +182,8 @@ body {
 
 .btn {
   padding: 10px 20px;
+  margin-top: 200px;
+  margin-left: 2.5%;
   text-decoration: none;
   border-radius: 50px;
   background: #1e3df1;
@@ -210,14 +194,11 @@ body {
 }
 
 .social {
-  margin: 10px 60px;
   width: 60px;
-  margin-top: 20px;
+
   text-align: left;
   padding: 50px;
-  margin-bottom: 40px;
-  position: relative;
-  left: -60%;
+  margin-top: 50px;
 }
 
 .icon-linkedin {
@@ -243,7 +224,7 @@ body {
   top: 50px;
   width: 60px;
   height: 50px;
-  position: absolute;
+
   background-image: url("https://img.icons8.com/small/452/github.png");
   border: 0;
   background-position: center;
@@ -280,7 +261,7 @@ body {
 
   margin: 0;
   margin-left: 0;
-  border: 6px solid #677DF9;
+  border: 6px solid #677df9;
   border-radius: 50% !important;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
@@ -292,6 +273,8 @@ body {
 
 /* about section*/
 .about {
+  position: relative;
+  display: grid;
   width: 100%;
   height: auto;
   padding: 50px 10vw;
@@ -299,6 +282,8 @@ body {
 
 .heading {
   text-align: center;
+
+  position: relative;
   font-weight: 500;
   font-size: 3.5rem;
   text-transform: capitalize;
@@ -306,48 +291,24 @@ body {
 
 .sub-heading {
   text-align: center;
+
+  position: relative;
   font-size: 1rem;
-  margin: 10px;
+
   opacity: 0.7;
 }
 
 .seperator {
-  width: 25%;
-  margin: 20px auto;
+  width: 50%;
+  margin-left: 25%;
+
   position: relative;
 }
-
 .about-me-container {
-  margin: 150px 0 100px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 40% 60%;
-  grid-gap: 50px;
-}
-
-.left-col,
-.right-col {
   position: relative;
-}
+  margin-top: 5%;
 
-.left-col::before {
-  content: "girl dad";
-  text-transform: capitalize;
-  position: absolute;
-  right: 0;
-  top: -25px;
-}
-
-.left-col::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  right: 80px;
-  width: 50px;
-  height: 2px;
-  background: #fff;
-  transform-origin: right;
-  transform: rotate(-30deg);
+  width: 90%;
 }
 
 .about-image {
@@ -357,24 +318,26 @@ body {
 
 .about-paragraph {
   font-size: 1.2rem;
+
   font-weight: 300;
   line-height: 35px;
-  margin-bottom: 40px;
 }
 
 .video-wrapper {
-  padding-bottom: 56.25%;
   position: relative;
+
+  padding-bottom: 56.25%;
+  margin-top: 1rem;
   height: 0;
+  overflow: hidden;
 }
 .video-wrapper iframe {
-  left: 20%;
-  top: 0;
-  height: 80%;
-  width: 80%;
-  border: 3px;
-  border-radius: 10px;
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -392,10 +355,10 @@ body {
 
 .skill-card {
   height: 200px;
+  position: relative;
   border-radius: 10px;
   border: 1px solid #464646;
   text-align: center;
-  position: relative;
   cursor: pointer;
   transition: 0.7s;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
@@ -403,6 +366,7 @@ body {
 
 .skill {
   font-size: 2rem;
+  position: relative;
   color: #464646;
   line-height: 200px;
 }
@@ -434,7 +398,7 @@ body {
 
 .education-card {
   height: auto;
-  display: inline-flexbox;
+
   text-align: center;
   border-radius: 10px;
   border: 1px solid #464646;
@@ -447,7 +411,6 @@ body {
   font-size: 2rem;
   text-align: center;
   color: #464646;
-  line-height: 200px;
 }
 
 .school-description {
@@ -455,7 +418,7 @@ body {
   font-size: 1em;
   font-weight: 300;
   line-height: 25px;
-  padding-left: 1.2em;
+  padding-left: 0;
   margin-bottom: 10px;
   list-style: none;
   text-align: center;
@@ -489,9 +452,9 @@ body {
   position: relative;
   text-decoration: none;
   top: -40px;
-  left: 10px;
+
   border-radius: 50px;
-  background: #7d7d7e;
+  background: #677df9;
   color: #fff;
   text-transform: capitalize;
   border: none;
@@ -504,7 +467,6 @@ body {
 /*contact section*/
 .contact {
   width: 100%;
-  height: 300px;
 
   padding-top: 80px;
 }
@@ -541,42 +503,17 @@ body {
   color: #1e3df1;
   font-size: 1.1em;
 }
+@media (max-width: 1300px) {
+  .portrait-containter {
+    margin-left: 20%;
 
-@media (max-width: 500px) {
-  html {
-    font-size: 12px;
-  }
-  p,
-  .sub-heading,
-  .about-paragraph,
-  .left-col::before,
-  .tags {
-    font-size: 1.4rem;
-  }
-  .about-image,
-  .contact-image {
-    width: 60%;
-    margin: auto;
+    top: 0;
+
+    margin-top: 20px;
+    position: absolute;
     display: block;
   }
-  .skills-container,
-  .projects-container {
-    grid-template-columns: 1fr;
-  }
-  .skill {
-    font-size: 2.5rem;
-  }
-  .project-tile {
-    font-size: 3rem;
-  }
-  .education-container {
-    grid-template-columns: 1fr;
-  }
-  .contact-container {
-    margin: 300px 0 30px;
-    font-size: 2em;
-    width: 100%;
-    padding-left: 20%;
-    overflow: auto;
+  .self-portrait {
+    height: 100%;
   }
 }
