@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 <head>
     <title>Jonathankyle Brooks' Portfolio</title>
@@ -14,15 +14,17 @@
 
 <body>
     <!--navigation header-->
-
-    <ul class="nav nav-pills justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link active">home</a></li>
-        <li class="nav-item"><a href="projects\projects.html" class="nav-link">projects</a></li>
-        <li class="nav-item"><a href="#about-section" class="nav-link">about</a></li>
-        <li class="nav-item"><a href="#contact-section" class="nav-link">contact</a></li>
-    </ul>
+    <nav aria-label="Main Navigation">
+        <ul class="nav nav-pills justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link active">home</a></li>
+            <li class="nav-item"><a href="projects\projects.html" class="nav-link">projects</a></li>
+            <li class="nav-item"><a href="#about-section" class="nav-link">about</a></li>
+            <li class="nav-item"><a href="#contact-section" class="nav-link">contact</a></li>
+        </ul>
+    </nav>
 
     <!--home section-->
+    <main></main>
     <section class="home">
         <div class="container-fluid">
             <div class="row justify-content-around">
@@ -34,14 +36,16 @@
                     <div class="">
                         <div class="row gx-10 justify-content-start">
                             <div class="p-3 col-2">
-                                <a href="https://www.linkedin.com/in/jonathankyle-brooks/" target="_blank">
-                                    <button class="icon-linkedin" <i class="fa-linkedin">in</i>
+                                <a aria-label="LinkedIn Link" href="https://www.linkedin.com/in/jonathankyle-brooks/"
+                                    target="_blank">
+                                    <button aria-label="LinkedIn Link Button" class="icon-linkedin" <i
+                                        class="fa-linkedin">in</i>
                                     </button></a>
                             </div>
 
                             <div class="p-3 col-6">
-                                <a href="https://github.com/CaptainPoldark" target="_blank">
-                                    <button class="icon-github"></button></a>
+                                <a aria-label="Github Link" href="https://github.com/CaptainPoldark" target="_blank">
+                                    <button aria-label="Github Link Button" class="icon-github"></button></a>
                             </div>
                         </div>
                     </div>
@@ -79,7 +83,7 @@
             <div class="row justify-content-around">
 
                 <div class="col-md  ">
-                    <img src="assets\images\aboutPic.jpg" class="rounded img-fluid">
+                    <img src="assets\images\aboutPic.jpg" class="rounded img-fluid" alt="Me holding my two daughters">
                 </div>
 
 
@@ -224,12 +228,13 @@
                 </div>
                 <div class="col-3">
 
-                    <img src="assets\images\contact.jpg" class="img-fluid">
+                    <img src="assets\images\contact.jpg" class="img-fluid" alt="screenshot of me on WTXL">
                 </div>
             </div>
 
         </div>
     </section>
+    </main>
 </body>
 
 </html>

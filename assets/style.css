@@ -34,16 +34,22 @@ body {
 
 .link {
   text-transform: capitalize;
-  color: #fff;
+  color: #a8a8a8;
   text-decoration: none;
   margin: 0 10px;
   padding: 10px;
   position: relative;
 }
 
+.nav-link{
+  color: #a8a8a8;
+}
+
 .link:hover:not(.active) {
   opacity: 0.2;
-  color: whitesmoke;
+  color: #a8a8a8;
+  ;
+
 }
 
 .link.active::after,
@@ -360,7 +366,7 @@ body {
 .skill {
   font-size: 2rem;
   position: relative;
-  color: #464646;
+  color: #8F8F8F;
   line-height: 200px;
 }
 
@@ -403,7 +409,7 @@ body {
   position: relative;
   font-size: 2rem;
   text-align: center;
-  color: #464646;
+  color: #8F8F8F;
 }
 
 .school-description {
