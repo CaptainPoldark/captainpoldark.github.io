@@ -41,15 +41,13 @@ body {
   position: relative;
 }
 
-.nav-link{
+.nav-link {
   color: #a8a8a8;
 }
 
 .link:hover:not(.active) {
   opacity: 0.2;
   color: #a8a8a8;
-  ;
-
 }
 
 .link.active::after,
@@ -75,13 +73,11 @@ body {
   font-size: 5em;
 
   text-transform: capitalize;
-
 }
 @media screen and (max-width: 1200px) {
   .hero-heading {
     font-size: 2em;
   }
-
 }
 
 .highlight {
@@ -216,7 +212,7 @@ body {
   color: #0077b5;
   border: 0;
   cursor: pointer;
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: 900;
   line-height: 50px;
   border-radius: 45px;
@@ -236,7 +232,7 @@ body {
   background-position: center;
   background-size: 50px;
   cursor: pointer;
-  font-size: 40px;
+  font-size: 2.5em;
   line-height: 50px;
   border-radius: 45px;
   display: inline-block;
@@ -257,7 +253,7 @@ body {
   color: #0097b5;
 }
 
-.self-portrait-container{
+.self-portrait-container {
   overflow: hidden;
   border: 6px solid #677df9;
   border-radius: 50% !important;
@@ -283,7 +279,7 @@ body {
 
   position: relative;
   font-weight: 500;
-  font-size: 3.5rem;
+  font-size: 3.5eem;
   text-transform: capitalize;
 }
 
@@ -291,7 +287,7 @@ body {
   text-align: center;
 
   position: relative;
-  font-size: 1rem;
+  font-size: 1em;
 
   opacity: 0.7;
 }
@@ -306,7 +302,6 @@ body {
   position: relative;
   margin-top: 5%;
 
-
   width: 90%;
 }
 
@@ -316,7 +311,7 @@ body {
 }
 
 .about-paragraph {
-  font-size: 1.2rem;
+  font-size: 1.2em;
 
   font-weight: 300;
   line-height: 35px;
@@ -328,7 +323,6 @@ body {
   padding-bottom: 56.25%;
   margin-top: 1rem;
   height: 0;
-
 }
 .video-wrapper iframe {
   position: absolute;
@@ -343,11 +337,11 @@ body {
 /* skills section*/
 .skills-container {
   position: relative;
-  margin-top: 100px;
+  margin-top: 3em;
   margin-left: 10%;
   margin-right: 10%;
   display: grid;
-  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-columns: auto auto;
 
   grid-gap: 20px;
 }
@@ -357,8 +351,12 @@ body {
   position: relative;
   border-radius: 10px;
   border: 1px solid #464646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   cursor: pointer;
+  padding: 1.2em;
   transition: 0.7s;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
@@ -366,8 +364,9 @@ body {
 .skill {
   font-size: 2rem;
   position: relative;
-  color: #8F8F8F;
-  line-height: 200px;
+  color: #8f8f8f;
+
+
 }
 
 .skill-card:hover {
@@ -385,6 +384,9 @@ body {
 }
 .education-container {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 100px;
   margin-left: 20%;
   margin-right: 20%;
@@ -407,16 +409,16 @@ body {
 
 .school-name {
   position: relative;
-  font-size: 2rem;
+  font-size: 2em;
   text-align: center;
-  color: #8F8F8F;
+  color: #8f8f8f;
 }
 
 .school-description {
   position: relative;
   font-size: 1em;
   font-weight: 300;
-  line-height: 25px;
+
   padding-left: 0;
   margin-bottom: 10px;
   list-style: none;
@@ -432,8 +434,9 @@ body {
 
 .projects-container {
   position: relative;
-  margin-top: 100px;
-  margin-left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pacman-container {
@@ -448,10 +451,11 @@ body {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 .projects-btn {
-  padding: 10px 20px;
+  margin: 2em;
+  padding: 1em;
   position: relative;
   text-decoration: none;
-  top: -40px;
+
 
   border-radius: 50px;
   background: #677df9;
@@ -462,12 +466,11 @@ body {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 .projects-btn:hover {
-  color: #1d1d1d;
+  transform: scale(1.1);
 }
 /*contact section*/
 .contact {
   align-items: center;
-
 }
 .contact-container {
   font-size: 2em;
@@ -485,7 +488,7 @@ body {
 }
 
 .contact-paragraph {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   font-weight: 300;
   line-height: 35px;
 }
