@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jonathankyle/static/css/main.b387b555.css",
+    "main.js": "/jonathankyle/static/js/main.0a58711d.js",
+    "static/js/415.4d6acbeb.chunk.js": "/jonathankyle/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.9b9c0edf.chunk.js": "/jonathankyle/static/js/787.9b9c0edf.chunk.js",
+    "static/media/hero-bg.png": "/jonathankyle/static/media/hero-bg.fa3d4f04510bf6947b8d.png",
+    "static/media/profilePic.jpg": "/jonathankyle/static/media/profilePic.c6991487ace3c7005e9c.jpg",
+    "static/media/tail-spin.svg": "/jonathankyle/static/media/tail-spin.7c84e04b129bc4930274.svg",
+    "index.html": "/jonathankyle/index.html",
+    "main.b387b555.css.map": "/jonathankyle/static/css/main.b387b555.css.map",
+    "main.0a58711d.js.map": "/jonathankyle/static/js/main.0a58711d.js.map",
+    "415.4d6acbeb.chunk.js.map": "/jonathankyle/static/js/415.4d6acbeb.chunk.js.map",
+    "787.9b9c0edf.chunk.js.map": "/jonathankyle/static/js/787.9b9c0edf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b387b555.css",
+    "static/js/main.0a58711d.js"
+  ]
+}
