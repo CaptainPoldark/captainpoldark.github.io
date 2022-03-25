@@ -67,7 +67,7 @@
   z-index: 9999;
   /* Created with https://www.css-gradient.com */
   background-color: #020024;
-  background-image: -moz-linear-gradient(
+  background-image: -webkit-linear-gradient(
     22deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(9, 9, 121, 1) 27%,
@@ -224,14 +224,8 @@ ul {
   transform: scale(130%);
   outline: none;
   border-radius: 2%;
-  box-shadow: inset 0 0 40px #fff,
-    /* inner white */ inset 20px 0 80px rgb(7, 33, 119),
-    /* inner left magenta short */ inset -20px 0 80px #0ff,
-    /* inner right cyan short */ inset 20px 0 200px rgb(17, 0, 255),
-    /* inner left magenta broad */ inset -20px 0 2000px #0ff,
-    /* inner right cyan broad */ 0 0 50px #fff,
-    /* outer white */ -10px 0 80px rgb(0, 119, 255),
-    /* outer left magenta */ 10px 0 40px #0ff; /* outer right cyan */
+  box-shadow: inset 20px 0 80px rgb(7, 33, 119),
+    inset 20px 0 200px rgb(17, 0, 255), 0 0 80px rgb(0, 119, 255);
 }
 
 .github-container {
@@ -240,4 +234,58 @@ ul {
 }
 
 .github-calendar {
+}
+
+.resume-section {
+  position: relative;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.resume-slider-container {
+  position: absolute;
+
+  margin-right: 50%;
+  margin-top: 20%;
+  transform: rotate(-90deg);
+  z-index: 90;
+}
+.resume-slider-slider {
+  transform: scale(200%);
+  opacity: 60%;
+  box-shadow: linear-gradient(to top, #3631ce, #31ceb9) 1;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+
+  height: 3px;
+  background: rgba(8, 0, 0, 0.336);
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #3631ce, #31ceb9);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 5px;
+  border-radius: 20%;
+  background: linear-gradient(to right, #3631ce, #31ceb9);
+  cursor: ew-resize;
+  box-shadow: 0 0 2px 0 #555;
+  transition: background 0.3s ease-in-out;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  border: none;
+  background: transparent;
+}
+.resume-file {
+  justify-content: center;
+
+  height: 50%;
+  padding-left: 30%;
+  padding-right: 30%;
 }

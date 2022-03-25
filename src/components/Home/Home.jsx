@@ -24,7 +24,7 @@ function Home() {
                   className="highlight profession"
                   style={{ padding: 50, textAlign: "left" }}
                   id="profession"
-                  words={["Full-Stack Web Developer"]}
+                  words={["Full-Stack Web Developer", "MERN Developer"]}
                 />
               </div>
             </Col>
