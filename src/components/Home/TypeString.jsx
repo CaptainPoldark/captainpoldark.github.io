@@ -24,6 +24,7 @@ function TypeString(props) {
       index !== words.length - 1 &&
       !backspace
     ) {
+      
       setBackspace(true);
       return;
     }
@@ -36,17 +37,16 @@ function TypeString(props) {
 
     const timeout = setTimeout(() => {
       setSubIndex((prev) => prev + (backspace ? -1 : 1));
-    }, Math.max(backspace ? 75 : subIndex === words[index].length ? 1000 : 150, parseInt(Math.random() * 350)));
+    }, 130);
 
     return () => clearTimeout(timeout);
   }, [subIndex, index, backspace]);
 
-  console.log(index);
-
   return (
-    <div className="profession">{`<> ${words[index].substring(0, subIndex)} ${
-      blink ? "|" : '\u2008'
-    } </>`}</div>
+    <div className="profession">{`<> ${words[index].substring(
+      0,
+      subIndex
+    )} ${blink ? "|" : "\u2008"} </>`}</div>
   );
 }
 

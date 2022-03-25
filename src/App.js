@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     const showLoading = setTimeout(() => {
       setLoading(false);
-    }, 1700);
+    }, 900);
 
     return () => clearTimeout(showLoading);
   }, []);

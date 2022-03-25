@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState, useRef } from "react";
+import Pdf from "@mikecousins/react-pdf";
+const resume = "../../Images/JonathankyleBrooks.pdf";
 
 function Resume() {
-  return <div>Resume</div>;
+
+
+  return (
+    <div>
+      <Pdf file={resume} page={0}></Pdf>
+    </div>
+  );
 }
 
 export default Resume;

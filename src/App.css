@@ -122,7 +122,7 @@
   position: relative;
 
   height: 80vh;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   padding-top: 3rem;
 }
 
@@ -148,7 +148,7 @@
 
 .home-about-section {
   position: relative;
-  padding-bottom: 1rem;
+  padding-bottom: 0;
   padding-top: 2rem;
 }
 .home-about-description {
@@ -171,9 +171,9 @@
 }
 @media (max-width: 767px) {
   .home-section {
-    padding: 1rem 2rem;
+    padding: 1rem;
 
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
   .heading-greeting {
     font-size: 1.6rem;
@@ -192,7 +192,7 @@
 }
 
 .about-section {
-  padding-top: 4rem;
+  padding-top: 1rem;
   color: whitesmoke;
 }
 .about-card {
