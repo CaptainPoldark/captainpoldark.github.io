@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import { VscDebugBreakpointDataUnverified } from "react-icons/vsc";
-import { GrReactjs, GrNode } from "react-icons/gr";
+import { GrReactjs, GrNode, GrGraphQl } from "react-icons/gr";
 import {
   SiMongodb,
   SiNextdotjs,
@@ -13,7 +13,7 @@ import { DiHeroku } from "react-icons/di";
 
 function AboutContent() {
   return (
-    <Container style={{ width: "100%" }}>
+    <Container fluid>
       <Card className="about-card">
         <p style={{ textAlign: "justify" }}>
           Hey, thanks for checking out my portfolio page and for allowing me to
@@ -79,64 +79,58 @@ function AboutContent() {
         </Col>
       </Row>
       <div className="skills-container">
-        <Row>
-          {" "}
+        <Row style={{ justifyContent: "center" }}>
           <h4>Skills</h4>
-          <Col xs={4} md={2} className="framework-icons react">
+          <Col md={2} className="framework-icons react">
             <GrReactjs size={"lg"} />
             <br />
             React.js
           </Col>
-          <Col xs={4} md={2} className="framework-icons">
+          <Col md={2} className="framework-icons">
             <GrNode size={"lg"} />
             <br />
             <p>Node.js</p>
           </Col>
-          <Col xs={4} md={2} className="framework-icons">
+          <Col md={2} className="framework-icons">
             <SiMongodb size={"lg"} />
             <br />
             MongoDB
           </Col>
-          <Col xs={4} md={2} className="framework-icons">
+          <Col md={2} className="framework-icons">
             <FaGitSquare size={"lg"} />
             <br />
             Git
           </Col>
-          <Col xs={4} md={2} className="framework-icons">
+          <Col md={2} className="framework-icons">
             <SiNextdotjs size={"lg"} />
             <br />
             Next.js
           </Col>
+          <Col md={2} className="framework-icons">
+            <GrGraphQl size={"lg"} />
+            <br />
+            GraphQL
+          </Col>
         </Row>
       </div>
       <div className="skills-container">
-        <Row>
+        <Row style={{ justifyContent: "center" }}>
           {" "}
           <h4>Cloud</h4>
-          <Col xs={4} md={2} className="framework-icons">
+          <Col md={2} className="framework-icons">
             <SiAmazonaws size={"lg"} />
             <br />
             AWS
           </Col>
-          <Col xs={4} md={2} className="framework-icons">
+          <Col md={2} className="framework-icons">
             <FaDocker size={"lg"} />
             <br />
             <p>Docker</p>
           </Col>
-          <Col xs={4} md={2} className="framework-icons">
+          <Col md={2} className="framework-icons">
             <FaDigitalOcean size={"lg"} />
             <br />
             Digital Ocean
-          </Col>
-          <Col xs={4} md={2} className="framework-icons">
-            <SiMicrosoftazure size={"lg"} />
-            <br />
-            Azure
-          </Col>
-          <Col xs={4} md={2} className="framework-icons">
-            <DiHeroku size={"lg"} />
-            <br />
-            Heroku
           </Col>
         </Row>
       </div>
