@@ -240,13 +240,14 @@ ul {
   position: relative;
   padding-top: 5em;
   padding-bottom: 5em;
+
 }
 
 .resume-slider-container {
-  position: absolute;
+  position: fixed;
 
-  margin-right: 50%;
-  margin-top: 20%;
+  margin: auto;
+  margin-top: 30%;
   transform: rotate(-90deg);
   z-index: 90;
 }

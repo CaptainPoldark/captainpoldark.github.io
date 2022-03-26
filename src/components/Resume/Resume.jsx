@@ -11,8 +11,8 @@ const resume =
 function Resume() {
   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
   const resumeZoomSlider = document.getElementById("resumeZoom");
-  const [width, setWidth] = useState(1200);
-  const [zoom, setZoom] = useState(1.6);
+  const [width, setWidth] = useState(window.innerWidth);
+  const [zoom, setZoom] = useState(1.4);
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -21,7 +21,7 @@ function Resume() {
   return (
     <div>
       <Container fluid className="resume-section">
-        {width > 800 ? (
+        {width > 1050 ? (
           <div className="resume-slider-container">
             <input
               className="resume-slider-slider"
@@ -52,7 +52,10 @@ function Resume() {
         <Row className="resume">
           <Col>
             <Document file={resume} className="d-flex justify-content-center">
-              <Page pageNumber={1} scale={width > 800 ? Number(zoom) : 0.6} />
+              <Page
+                pageNumber={1}
+                scale={width > 1050 ? Number(zoom) : 1.3}
+              />
             </Document>
           </Col>
         </Row>

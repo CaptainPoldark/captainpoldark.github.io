@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div>Designed and developed by Jonathankyle Brooks</div>
   )
 }
 
