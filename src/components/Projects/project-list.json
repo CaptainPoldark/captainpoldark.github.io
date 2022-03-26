@@ -1,0 +1,26 @@
+{
+  "projects": [
+    {
+      "title": "Thomasville Foodie",
+      "description": "A food ordering app with shows dishes from local restaurants. This app allows creation of user accounts, includes payment processing, and includes order history in the user's account information page.",
+      "tech": [
+        "Next.Js",
+        "React.Js",
+        "JWT",
+        "Stripe",
+        "Strapi",
+        "GraphQL",
+        "Apollo"
+      ],
+      "links": [{ "demo": "", "github": "", "image": "" }],
+      "demoCreds": [{ "username": "", "password": "" }]
+    },
+    {
+      "title": "Bad Bank",
+      "description": "An intentionally insecure Banking app that allows processing transactions, and viewing the transactions on the transactions page.",
+      "tech": ["React.Js"],
+      "links": [{ "demo": "", "github": "", "image": "" }],
+      "demoCreds": [{ "username": "", "password": "" }]
+    }
+  ]
+}

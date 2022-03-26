@@ -290,3 +290,31 @@ input[type="range"]::-webkit-slider-runnable-track {
   padding-left: 30%;
   padding-right: 30%;
 }
+
+.projects-section {
+  padding-top: 10em;
+  padding-bottom: 17em;
+  color: white;
+}
+
+.project-container-card {
+  margin: 1em;
+  padding: 1em;
+  height: auto;
+}
+
+.project-card-card {
+  box-shadow: 0 4px 35px 2px #3631ce;
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
+  color: white;
+  background-color: transparent;
+
+  height: 100%;
+}
+.project-card-card:hover {
+  transform: scale(105%);
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
+  box-shadow: 10px 12px 42px 12px #3631ce;
+}
