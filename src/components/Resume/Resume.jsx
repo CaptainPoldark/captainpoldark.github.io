@@ -54,7 +54,7 @@ function Resume() {
             <Document file={resume} className="d-flex justify-content-center">
               <Page
                 pageNumber={1}
-                scale={width > 1050 ? Number(zoom) : 1.3}
+                scale={width > 1050 ? Number(zoom) : .55}
               />
             </Document>
           </Col>
