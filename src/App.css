@@ -216,17 +216,20 @@ ul {
 }
 .framework-icons {
   margin: 1rem;
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
   border: 2px solid transparent;
   outline: none;
   border-image: linear-gradient(to left, #3631ce, #31ceb9) 1;
 }
 
 .framework-icons:hover {
-  transform: scale(130%);
+  transform: scale(105%);
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
   outline: none;
   border-radius: 2%;
-  box-shadow: inset 20px 0 80px rgb(7, 33, 119),
-    inset 20px 0 200px rgb(17, 0, 255), 0 0 80px rgb(0, 119, 255);
+  box-shadow: 10px 12px 42px 12px #3631ce;
 }
 
 .github-container {
@@ -273,15 +276,22 @@ input[type="range"]::-webkit-slider-thumb {
   width: 5px;
   border-radius: 20%;
   background: linear-gradient(to right, #3631ce, #31ceb9);
-  cursor: ew-resize;
-  box-shadow: 0 0 2px 0 #555;
-  transition: background 0.3s ease-in-out;
+  cursor:grab;
+}
+input[type="range"]::-webkit-slider-thumb:active {
+
+  cursor:grabbing;
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
   -webkit-appearance: none;
   border: none;
   background: transparent;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
+  box-shadow: 10px 12px 42px 12px #3631ce;
 }
 .resume-file {
   justify-content: center;
@@ -292,8 +302,9 @@ input[type="range"]::-webkit-slider-runnable-track {
 }
 
 .projects-section {
-  padding-top: 10em;
-  padding-bottom: 17em;
+  height: 100vh;
+  padding-top: 5em;
+  padding-bottom: 5em;
   color: white;
 }
 
@@ -317,4 +328,16 @@ input[type="range"]::-webkit-slider-runnable-track {
   transition: ease-in 0.5s;
   transition: ease-out 0.5s;
   box-shadow: 10px 12px 42px 12px #3631ce;
+}
+.project-card-demobtn  {
+  border: none;
+  opacity: 70%;
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
+  background-color: #3631ce;
+}
+.project-card-demobtn:hover  {
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
+  background-color: #18148d;
 }

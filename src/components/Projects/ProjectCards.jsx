@@ -48,9 +48,18 @@ function ProjectCards() {
                       })}
                     </Row>
                   </Card.Text>
-                  <Button variant="primary" href={project.links.demo}>
-                    Demo
-                  </Button>
+                  <Row>
+                    <Col>
+                      <Button href={project.links.demo} target="_blank" className="project-card-demobtn">
+                        Demo
+                      </Button>
+                    </Col>
+                    <Col>
+                      <Button variant="secondary" href={project.links.github} target="_blank">
+                        View on Github
+                      </Button>
+                    </Col>
+                  </Row>
                 </Card.Body>
               </Card>
             </Col>
