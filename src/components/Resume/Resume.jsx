@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
 const resume =
-  "https://cors-anywhere.herokuapp.com/https://github.com/CaptainPoldark/jonathankyle/blob/newPortfolio/src/Images/JonathankyleBrooks.pdf?raw=true";
+  "https://captainpoldark/jonathankyle/blob/newPortfolio/src/Images/JonathankyleBrooks.pdf?raw=true";
 
 function Resume() {
   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
