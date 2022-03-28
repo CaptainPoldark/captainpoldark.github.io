@@ -4,3 +4,4 @@
 .vs/jonathankyle/v16/.suo
 .vs/ProjectSettings.json
 **/node_modules
+**/build
