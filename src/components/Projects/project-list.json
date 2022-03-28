@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "title": "Thomasville Foodie",
+      "description": "A food ordering app with shows dishes from local restaurants. This app allows creation of user accounts, includes payment processing, and includes order history in the user's account information page.",
+      "tech": [
+        "Next.Js",
+        "React.Js",
+        "JWT",
+        "Stripe",
+        "Strapi",
+        "GraphQL",
+        "Apollo",
+        "Docker",
+        "Digital Ocean"
+      ],
+      "links": {
+        "demo": "https://thomasvillefoodie-dawry.ondigitalocean.app/",
+        "github": "https://github.com/CaptainPoldark/thomasvillefoodie",
+        "image": ""
+      },
+      "demoCreds": { "username": "test", "password": "" }
+    },
+    {
+      "title": "Bad Bank",
+      "description": "An intentionally insecure Banking app that allows processing transactions, and viewing the transactions on the transactions page.",
+      "tech": ["React.Js", "AWS"],
+      "links": {
+        "demo": "https://jonathankyle-badbank.s3.us-east-2.amazonaws.com/index.html",
+        "github": "https://github.com/CaptainPoldark/badbank",
+        "image": ""
+      },
+      "demoCreds": 
+        { "username": "jneutron@protonmail.com", "password": "Goddard" }
+      
+    },
+    {
+      "title": "MBTA Bus Tracker",
+      "description": "This application tracks the real time movements of the buses in the City of Boston using the MBTA Rest API.",
+      "tech": ["HTML5", "REST", "Plain Javascript", "Open Street Map"],
+      "links": {
+        "demo": "https://captainpoldark.github.io/mbta-tracker/",
+        "github": "https://github.com/CaptainPoldark/mbta-tracker",
+        "image": ""
+      },
+      "demoCreds": { "username": "", "password": "" }
+    }
+  ]
+}
