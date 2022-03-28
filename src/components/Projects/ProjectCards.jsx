@@ -81,7 +81,7 @@ function ProjectCards() {
                   {project.demoCreds.username || project.demoCreds.password ? (
                     <div className="project-credentials-table">
                       <Row>
-                        <Table striped borderless hover variant="dark">
+                        <Table striped borderless responsive hover variant="dark">
                           <thead>
                             <tr>
                               <th>Demo Credentials</th>
