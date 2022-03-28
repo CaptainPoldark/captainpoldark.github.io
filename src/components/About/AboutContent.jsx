@@ -25,8 +25,7 @@ function AboutContent() {
           myself in. My path in life has lead me through extensive studies in
           Biology, Chemistry, Cybersecurity, Full-Stack Web Development, and
           Political Theory. I think that education, and a hunger to learn is
-          important in any field. <i>Especially</i>
-          Web Development.
+          important in any field. Especially Web Development.
           <br />
           <br />
           I'm sure you want to know more about me as a person, what I do outside

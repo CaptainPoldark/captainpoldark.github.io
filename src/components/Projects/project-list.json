@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Thomasville Foodie",
-      "description": "A food ordering app with shows dishes from local restaurants. This app allows creation of user accounts, includes payment processing, and includes order history in the user's account information page.",
+      "description": "A food ordering app which shows dishes from local restaurants. This app allows creation of user accounts, includes payment processing, and includes order history in the user's account information page.",
       "tech": [
         "Next.Js",
         "React.Js",
