@@ -12,7 +12,6 @@ import {
 import ProjectList from "./project-list.json";
 
 function ProjectCards() {
-  console.log(ProjectList.projects.length);
 
   /*   const CredsPopover = (props) => {
     return (

@@ -4,7 +4,9 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import resume from "../../Images/JonathankyleBrooks.pdf";
+import resume from "../../Images/JonathankyleBrooks.pdf"
+
+
 
 function Resume() {
   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -38,7 +40,7 @@ function Resume() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={resume}
+            href={`${resume}?raw=true`}
             target="_blank"
             style={{ maxWidth: "20rem", opacity: "70%" }}
           >
