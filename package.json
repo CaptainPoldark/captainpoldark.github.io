@@ -1,5 +1,5 @@
 {
-  "homepage": "https://captainpoldark.github.io",
+  "homepage": "https://captainpoldark.github.io/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,6 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",
-    "github-pages": "^3.0.2",
     "pdfjs-dist": "^2.13.216",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.1",
@@ -50,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

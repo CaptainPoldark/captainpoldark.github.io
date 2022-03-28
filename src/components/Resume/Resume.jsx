@@ -4,9 +4,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-
-const resume =
-  "https://captainpoldark/jonathankyle/blob/newPortfolio/src/Images/JonathankyleBrooks.pdf?raw=true";
+import resume from "../../Images/JonathankyleBrooks.pdf";
 
 function Resume() {
   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -52,10 +50,7 @@ function Resume() {
         <Row className="resume">
           <Col>
             <Document file={resume} className="d-flex justify-content-center">
-              <Page
-                pageNumber={1}
-                scale={width > 1050 ? Number(zoom) : .55}
-              />
+              <Page pageNumber={1} scale={width > 1050 ? Number(zoom) : 0.55} />
             </Document>
           </Col>
         </Row>
