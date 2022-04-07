@@ -46,9 +46,9 @@ export default function Navigation() {
       placement="end"
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          Make a Logo bro
-        </Navbar.Brand>
+        {/* <Navbar.Brand href="/" className="d-flex">
+          
+        </Navbar.Brand> */}
         <Navbar.Toggle
           aria-controls="responsive-nav"
           onClick={() => setExpandNav(expandNav ? false : "expand")}

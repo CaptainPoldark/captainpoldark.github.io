@@ -32,7 +32,7 @@ function ProjectCards() {
           return (
             <Col md={4} className="project-container-card">
               <Card className="project-card-card">
-                <Card.Img variant="top" src={project.links.image} />
+                <Card.Img variant="top" style={{width: "100%", padding: "15px"}} src={project.links.image ? (`https://raw.githubusercontent.com/CaptainPoldark/captainpoldark.github.io/newPortfolio/src/Images/${project.links.image}`):""} />
                 <Card.Body>
                   <Card.Title>{project.title}</Card.Title>
                   <Card.Text className="project-card-text">
@@ -81,7 +81,7 @@ function ProjectCards() {
                   {project.demoCreds.username || project.demoCreds.password ? (
                     <div className="project-credentials-table">
                       <Row>
-                        <Table striped borderless hover variant="dark">
+                        <Table striped borderless responsive hover variant="dark">
                           <thead>
                             <tr>
                               <th>Demo Credentials</th>

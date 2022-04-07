@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Thomasville Foodie",
-      "description": "A food ordering app with shows dishes from local restaurants. This app allows creation of user accounts, includes payment processing, and includes order history in the user's account information page.",
+      "description": "A food ordering app which shows dishes from local restaurants. This app allows creation of user accounts, includes payment processing, and includes order history in the user's account information page.",
       "tech": [
         "Next.Js",
         "React.Js",
@@ -17,9 +17,9 @@
       "links": {
         "demo": "https://thomasvillefoodie-dawry.ondigitalocean.app/",
         "github": "https://github.com/CaptainPoldark/thomasvillefoodie",
-        "image": ""
+        "image": "thomasville-foodie.jpg"
       },
-      "demoCreds": { "username": "test", "password": "" }
+      "demoCreds": { "username": "jneutron@protonmail.com", "password": "Goddard" }
     },
     {
       "title": "Bad Bank",
@@ -41,7 +41,18 @@
       "links": {
         "demo": "https://captainpoldark.github.io/mbta-tracker/",
         "github": "https://github.com/CaptainPoldark/mbta-tracker",
-        "image": ""
+        "image": "bus_tracker.jpg"
+      },
+      "demoCreds": { "username": "", "password": "" }
+    },
+    {
+      "title": "mv_frontend_challenge_1",
+      "description": "A newer version of Bad Bank using a different context API, improved styling, and reusable components.",
+      "tech": ["HTML5", "React.js", "Redux", "React Bootstrap"],
+      "links": {
+        "demo": "https://captainpoldark.github.io/mv_frontend_challenge_1/",
+        "github": "https://github.com/CaptainPoldark/mv_frontend_challenge_1",
+        "image": "mv-frontend_challenge_1.jpg"
       },
       "demoCreds": { "username": "", "password": "" }
     }
