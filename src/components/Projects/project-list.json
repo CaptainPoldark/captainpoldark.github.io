@@ -17,7 +17,7 @@
       "links": {
         "demo": "https://thomasvillefoodie-dawry.ondigitalocean.app/",
         "github": "https://github.com/CaptainPoldark/thomasvillefoodie",
-        "image": ""
+        "image": "thomasville-foodie.jpg"
       },
       "demoCreds": { "username": "jneutron@protonmail.com", "password": "Goddard" }
     },
@@ -41,6 +41,17 @@
       "links": {
         "demo": "https://captainpoldark.github.io/mbta-tracker/",
         "github": "https://github.com/CaptainPoldark/mbta-tracker",
+        "image": ""
+      },
+      "demoCreds": { "username": "", "password": "" }
+    },
+    {
+      "title": "mv_frontend_challenge_1",
+      "description": "A newer version of Bad Bank using a different context API, improved styling, and reusable components.",
+      "tech": ["HTML5", "React.js", "Redux", "React Bootstrap"],
+      "links": {
+        "demo": "https://captainpoldark.github.io/mv_frontend_challenge_1/",
+        "github": "https://github.com/CaptainPoldark/mv_frontend_challenge_1",
         "image": ""
       },
       "demoCreds": { "username": "", "password": "" }
