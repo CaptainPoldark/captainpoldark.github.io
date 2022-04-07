@@ -41,7 +41,7 @@
       "links": {
         "demo": "https://captainpoldark.github.io/mbta-tracker/",
         "github": "https://github.com/CaptainPoldark/mbta-tracker",
-        "image": ""
+        "image": "bus_tracker.jpg"
       },
       "demoCreds": { "username": "", "password": "" }
     },
