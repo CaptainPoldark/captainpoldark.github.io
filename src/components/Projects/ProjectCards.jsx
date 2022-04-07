@@ -32,7 +32,7 @@ function ProjectCards() {
           return (
             <Col md={4} className="project-container-card">
               <Card className="project-card-card">
-                <Card.Img variant="top" style={{width: "100%"}} src={`https://github.com/CaptainPoldark/captainpoldark.github.io/tree/main/src/Images/${project.links.image}`} />
+                <Card.Img variant="top" style={{width: "100%", padding: "15px"}} src={project.links.image ? (`https://raw.githubusercontent.com/CaptainPoldark/captainpoldark.github.io/newPortfolio/src/Images/${project.links.image}`):""} />
                 <Card.Body>
                   <Card.Title>{project.title}</Card.Title>
                   <Card.Text className="project-card-text">
