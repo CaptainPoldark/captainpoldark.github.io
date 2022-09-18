@@ -22,6 +22,17 @@
       "demoCreds": { "username": "jneutron@protonmail.com", "password": "Goddard" }
     },
     {
+      "title": "GrepKast",
+      "description": "Podcast player made using React. The current episode played progress can be saved and recalled automatically when opening the episode again. Additional podcast feeds can be added, and selected from the menu. A menu may be displayed showing the listen history, and progress.",
+      "tech": ["HTML5", "React Bootstrap"],
+      "links": {
+        "demo": "https://captainpoldark.github.io/grepkast/",
+        "github": "https://github.com/CaptainPoldark/grepkast",
+        "image": "grepkast-mobile.jpg"
+      },
+      "demoCreds": { "username": "", "password": "" }
+    },
+    {
       "title": "Bad Bank",
       "description": "An intentionally insecure Banking app that allows processing transactions, and viewing the transactions on the transactions page.",
       "tech": ["React.Js", "AWS"],
@@ -53,17 +64,6 @@
         "demo": "https://captainpoldark.github.io/mv_frontend_challenge_1/",
         "github": "https://github.com/CaptainPoldark/mv_frontend_challenge_1",
         "image": "mv-frontend_challenge_1.jpg"
-      },
-      "demoCreds": { "username": "", "password": "" }
-    },
-    {
-      "title": "GrepKast",
-      "description": "Podcast player made using React. The current episode played progress can be saved and recalled automaticall when opening the episode again. Additional podcast feeds can be added, and selected from the menu. A menu may be displayed showing the listen history, and progress.",
-      "tech": ["HTML5", "React Bootstrap"],
-      "links": {
-        "demo": "https://captainpoldark.github.io/grepkast/",
-        "github": "https://github.com/CaptainPoldark/grepkast",
-        "image": ""
       },
       "demoCreds": { "username": "", "password": "" }
     }
